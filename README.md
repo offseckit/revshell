@@ -2,7 +2,7 @@
 
 **Generate reverse shell one-liners in 12+ languages from your terminal.**
 
-Part of [OffSecKit](https://offseckit.com) | [Browser version](https://offseckit.com/tools/revshell) | [Unified CLI](https://github.com/offseckit/cli)
+Part of [OffSecKit](https://offseckit.com) | [Browser version](https://offseckit.com/tools/revshell) | [Unified CLI](https://github.com/offseckit/osk)
 
 ## Install
 
@@ -62,7 +62,7 @@ osk revshell list
 
 ## Related
 
-- [OffSecKit CLI](https://github.com/offseckit/cli) — full toolkit (`pip install offseckit`)
+- [OffSecKit CLI](https://github.com/offseckit/osk) — full toolkit (`pip install offseckit`)
 - [Browser version](https://offseckit.com/tools/revshell) — use in your browser
 - [Reverse Shell Cheat Sheet](https://offseckit.com/blog/reverse-shell-cheat-sheet) — full guide
 
