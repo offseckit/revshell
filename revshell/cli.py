@@ -2,7 +2,13 @@
 
 import click
 
+from . import __version__
 from .shells import SHELLS, generate, get_listener, list_languages
+
+BANNER = f"""\
+\033[32m>_\033[0m \033[1mrevshell\033[0m \033[90mv{__version__}\033[0m
+\033[90m   offseckit.com/tools/revshell\033[0m
+"""
 
 
 @click.group(invoke_without_command=True)
@@ -33,6 +39,8 @@ def main(ctx, ip, port, lang, variant, encoding, listener, show_all):
     """
     if ctx.invoked_subcommand is not None:
         return
+
+    click.echo(BANNER)
 
     if ip is None:
         click.echo(ctx.get_help())
